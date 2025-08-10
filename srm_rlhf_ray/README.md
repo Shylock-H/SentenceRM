@@ -80,29 +80,6 @@ Replace the following values in the script:
 
 The script will generate outputs for your evaluation dataset.
 
-### 5. Evaluate Winrate
-
-To compare your model against a baseline:
-
-```bash
-bash scripts/srm_rlhf/winrate.sh
-```
-
-Replace the following in the script:
-- `SRM_RLHF_DIR`: Path to your working directory
-- Adjust model paths as needed
-
-This uses alpaca_eval to calculate win rates against a reference model.
-
-## Debugging
-
-For debugging purposes, you can use:
-
-```bash
-bash scripts/srm_rlhf/debug_serve.sh  # Debug the serving setup
-bash scripts/srm_rlhf/debug_dense.sh  # Debug the dense model training
-```
-
 
 
 
