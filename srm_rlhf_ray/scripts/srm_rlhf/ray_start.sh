@@ -1,0 +1,1 @@
+RAY_memory_usage_threshold=0.99 ray start --head --node-ip-address 127.0.0.1 --num-gpus 2 --port 4567 --temp-dir="/tmp/ray_$(date +'%d%H%M')"
